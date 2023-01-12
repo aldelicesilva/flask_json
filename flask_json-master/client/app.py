@@ -64,7 +64,7 @@ def create_user():
         'email': email
     }
     users_api.create_user(user)
-    return 'Usuario criado'
+    return 'Usuario criado', name, username, email, 201
     
 
 if __name__ == '__main__':
